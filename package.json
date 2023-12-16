@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-21",
+  "version": "0.0.1",
+  "description": "",
+  "main": "fetch.js",
+  "scripts": {
+    "fetch": "node fetch.js",
+    "websocket:server": "node websocket/server.js",
+    "websocket:client": "node --experimental-websocket websocket/client.js",
+    "array": "node array_grouping.js",
+    "navigator": "node navigator.js",
+    "default_module": "node --experimental-default-type=module esm/import.js",
+    "autodetect": "node --experimental-detect-module esm/import.js",
+    "import.meta": "node import_meta.mjs"
+  },
+  "author": "Masashi Hirano",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.15.1"
+  }
+}
